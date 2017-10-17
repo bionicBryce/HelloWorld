@@ -8,21 +8,22 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="btnCalculate" Content="Calculate Window" HorizontalAlignment="Left" Margin="657,519,0,0" VerticalAlignment="Top" Click="Button_Click" Height="81" Width="290"/>
+        <Button x:Name="btnCalculate" Content="Calculate Window" HorizontalAlignment="Left" Margin="600,445,0,0" VerticalAlignment="Top" Click="Button_Click" Height="81" Width="290"/>
         <TextBox x:Name="txtHeight" HorizontalAlignment="Left" Margin="55,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="18.846,-2.307" MinWidth="200" TextChanging="txtHeight_TextChanging"/>
         <TextBox x:Name="TxtWidth" HorizontalAlignment="Left" Margin="55,85,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="-1.59,-4.25" MinWidth="200" MinHeight="34" TextChanging="TxtWidth_TextChanging" />
         <TextBlock x:Name="___No_Name_" HorizontalAlignment="Left" Margin="55,170,0,0" TextWrapping="Wrap" Text="Window Height" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="55,53,0,0" TextWrapping="Wrap" Text="Window Width" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="514,53,0,0" TextWrapping="Wrap" Text="Results:" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
         <TextBlock x:Name="txtResults" HorizontalAlignment="Left" Margin="514,99,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400" Height="270" MinWidth="400"/>
-        <Slider x:Name="slider" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="55,325,0,0" RenderTransformOrigin="1.434,-0.36"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="375,416,0,0" VerticalAlignment="Top" Width="100" Source="HelloWorld/black.png "/>
-        <ComboBox x:Name="winTint" HorizontalAlignment="Left" Margin="55,439,0,0" VerticalAlignment="Top" Width="120">
+        <Slider x:Name="slider" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="55,363,0,0" RenderTransformOrigin="1.434,-0.36"/>
+        <ComboBox x:Name="winTint" HorizontalAlignment="Left" Margin="55,519,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.478,1.792">
             <ComboBoxItem Content="Black" Foreground="Black" Background="Black"/>
             <ComboBoxItem Content="Blue" Foreground="#FF2020F5" Background="#FF2020F5"/>
             <ComboBoxItem Content="Brown" Foreground="#FFAA9595" Background="#FFAA9595"/>
         </ComboBox>
-        <TextBlock x:Name="___No_Name__Copy" HorizontalAlignment="Left" Margin="55,260,0,0" TextWrapping="Wrap" Text="Slide the bar to select quantity of windows" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="400"/>
+        <TextBlock x:Name="SliderSelect" HorizontalAlignment="Left" Margin="55,289,0,0" TextWrapping="Wrap" Text="Slide the bar to select quantity of windows" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="400"/>
+        <TextBlock x:Name="colorSelect" HorizontalAlignment="Left" Margin="55,439,0,0" TextWrapping="Wrap" Text="Please use drop down to select window tint" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="320"/>
+        <TextBlock x:Name="colorSelect_Copy" HorizontalAlignment="Left" Margin="594,385,0,0" TextWrapping="Wrap" Text="Click &quot;Calculate Window&quot; button twice to have quote read out loud" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="320"/>
 
     </Grid>
 </Page>
